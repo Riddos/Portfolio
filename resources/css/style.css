@@ -1,0 +1,69 @@
+/* COLOURS */
+ 
+Discreet Palette
+#EEE8A9
+#F4FAFF
+#0097FB
+#5E8CC2
+
+Dust Palette
+#BE738B
+#A1ACBD
+#3E4756
+#5E8CC2
+
+/* COLOURS */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #fff;
+    color: #3E4756;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* RESUEABLE */
+
+section {
+    padding: 2rem 0 2rem 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* NAV BAR */
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #A1ACBD;
+    font-weight: 400;
+}
+
+/* ABOUT ME */
+
+.
