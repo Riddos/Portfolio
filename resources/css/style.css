@@ -22,7 +22,7 @@ Dust Palette
 
 html {
     background-color: #fff;
-    color: #3E4756;
+    color: #5E8CC2;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 10px;
@@ -49,7 +49,16 @@ p {
     font-size: 2rem;
 }
 
-/* NAV BAR */
+/* HERO COVER */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.788)),  url("blake-connally-435076-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
 
 .nav {
     display: flex;
@@ -60,9 +69,13 @@ p {
     margin: 0;
     justify-content: space-around;
     list-style: none;
-    background-color: #A1ACBD;
+    color: #0097FB;
     font-weight: 400;
 }
+
+/* NAV BAR */
+
+
 
 /* ABOUT ME */
 
