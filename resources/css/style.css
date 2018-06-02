@@ -136,3 +136,17 @@ header {
     flex-basis: 25%;
 }
 
+/* Resources */
+
+.resources-flex {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.resources-flex img {
+    width: 100%;
+    margin: 0;
+    flex-basis: 25%;
+}
