@@ -1,5 +1,8 @@
 /* COLOURS */
  
+&lt;h1&gt start
+&lt;/h1&gt end
+
 AUSSIE PALET
 #f6e58d beekeeper
 #ffbe76 spiced nectarine
@@ -45,8 +48,14 @@ html {
     margin: 0 auto;
 }
 
+
 /* RESUEABLE */
 
+
+.markup {
+    padding
+
+}
 section {
     padding: 2rem 0 2rem 0;
 }
@@ -80,6 +89,10 @@ header {
     background-size: cover;
     background-position: center;
     margin: 0;
+    
+}
+
+&lt;h1&gt { 
     
 }
 
@@ -119,7 +132,9 @@ header {
 
 /* ABOUT ME */
 
-
+.about-me {
+    background-color: rgb(15, 15, 15);
+}
 
 /* PORTFOLIO */
 
