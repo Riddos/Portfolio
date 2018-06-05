@@ -25,7 +25,15 @@ AUSSIE PALET
 #130f40 deep cove 
 #535c68 wizard grey
 
-
+MANOKAI
+#272822,
+#F92672,
+#66D9EF,
+#A6E22E,
+#FD971F,
+#272822,
+#F92672,
+#66D9EF
 /* COLOURS */
 
 * {
@@ -36,7 +44,7 @@ AUSSIE PALET
 
 html {
     background-color: rgb(255, 255, 255);
-    color: #ff7979;
+    color: #A6E22E;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 10px;
@@ -52,10 +60,7 @@ html {
 /* RESUEABLE */
 
 
-.markup {
-    color: #fff;
 
-}
 section {
     padding: 2rem 0 2rem 0;
 }
@@ -63,17 +68,17 @@ section {
 h1 {
     text-align: center;
     font-size: 5rem;
-    color: #c7ecee;
+    color: #A6E22E
 }
 
 h2 {
     font-size: 4rem;
-    color: #3E4756;
+    color: #A6E22E;
 }
 
 h3 {
     font-size: 3rem;
-    color: #5E8CC2;
+    color: #A6E22E;
 }
 
 p {
@@ -92,13 +97,8 @@ header {
     
 }
 
-&lt;h1&gt { 
-    
-}
-
 .nav-flex {
     display: flex;
-    font-size: 2rem;
 }
 
 .main-nav {
@@ -113,6 +113,7 @@ header {
     margin: 1rem 1rem;
     padding: 1rem;
     font-size: 2rem;
+    font-weight: 400;
 }
 
 
@@ -133,8 +134,18 @@ header {
 /* ABOUT ME */
 
 .about-me {
-    background-color: rgb(15, 15, 15);
+    background-color: #272822;
+    
+    color: #fff;
+    height: 100vh;
 }
+
+.markup {
+    color: #F92672;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 
 /* PORTFOLIO */
 
