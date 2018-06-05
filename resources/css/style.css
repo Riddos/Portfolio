@@ -1,7 +1,7 @@
 /* COLOURS */
  
-&lt;h1&gt start
-&lt;/h1&gt end
+/* &lt;h1&gt start
+&lt;/h1&gt end */
 
 AUSSIE PALET
 #f6e58d beekeeper
@@ -53,7 +53,7 @@ html {
 
 
 .markup {
-    padding
+    color: #fff;
 
 }
 section {
