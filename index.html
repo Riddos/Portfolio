@@ -7,13 +7,13 @@
         <title>LMS</title>
     </head>
     <body>
-        <header>
+        <header id="home-screen">
                 <nav>
                     <div class="nav-flex">
                         <img src="resources/images/LMS LOGO.jpg" alt="RIDDOS" class="logo">
                         <ul class="main-nav"> 
-                            <li>Resources</li>
-                            <li>Contact Me</li>
+                            <!-- <li>Resources</li> -->
+                            <li><a href="index.html#contact-me">Contact Me</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -38,7 +38,7 @@
             <h2 class="row">Portfolio</h2>
             <div class="portfolio-flex row">
                 <div><a href="https://www.plustechnologies.com.au/calculator" target="_blank"><img src="resources/images/Untitled-1.jpg" alt="plustechnolgy-calculator"></div></a>
-                <div><a href="https://github.com/Riddos" target="_blank"><img src="resources/images/githubtransp.jpg" alt="plustechnolgy-calculator"></div></a>
+                <div><a href="https://github.com/liammichaelsmith" target="_blank"><img src="resources/images/githubtransp.jpg" alt="plustechnolgy-calculator"></div></a>
                 <div><a href="https://my-first-blog-post.netlify.com" target="_blank"><img src="resources/images/My-First-Blog-Post.jpg" alt="My-First-Blog-Post"></div></a>
                 <div><a href="https://get-fit-fast.netlify.com/" target="_blank"><img src="resources/images/Get-fit-fast1.jpg" alt="Get-fit-fast"></div></a>
             </div>
@@ -47,10 +47,10 @@
         <section class="resources">
             <h2 class="row">Resources </h2>
             <div class="resources-flex row">
-                <div><img src="resources/images/Grid-garden.jpg" alt="plustechnolgy-calculator"></div>
-                <div><img src="resources/images/MDN.jpg" alt="plustechnolgy-calculator"></div>
-                <div><img src="resources/images/Flex-box-froggy.jpg" alt="plustechnolgy-calculator"></div>
-                <div><img src="resources/images/Flat-ui.jpg" alt="plustechnolgy-calculator"></div>
+                <div><a href="https://developer.mozilla.org/en-US/" target="_blank"><img src="resources/images/MDN.jpg" alt="Mozilla-developer"></a></div>
+                <div><a href="https://cssgridgarden.com/" target="_blank"><img src="resources/images/Grid-garden.jpg" alt="grid-garden"></a></div>
+                <div><a href="https://flexboxfroggy.com/" target="_blank"><img src="resources/images/Flex-box-froggy.jpg" alt="plustechnolgy-calculator"></a></div>
+                <div><a href="https://flatuicolors.com/" target="_blank"><img src="resources/images/Flat-ui.jpg" alt="plustechnolgy-calculator"></a></div>
             </div>
         </section>
         <!-- <section class="Blog">
@@ -68,7 +68,7 @@
                 <p>Have a question or want to work together?</p>
             </div>
             <div class="contact-form row">
-                <form class="contact-input" action="https://formspree.io/ixausliam@gmail.com" method="POST">
+                <form class="contact-input" action="https://formspree.io/ixausliam@gmail.com" method="POST" id="contact-me">
                     <input placeholder="Name" type="text" name="name" required></input>
                     <input placeholder="Enter Email" type="email" name="email" required></input>
                     <textarea placeholder="Your Message" type="text" name="message" required></textarea>
@@ -77,6 +77,9 @@
             </div>
         </section>
         <footer>
+            <div class="logo-background-home">
+                <a href="index.html#home-screen"> <ion-icon name="arrow-dropup-circle"></ion-icon></a>
+            </div> 
             <div class="footer-icons row">
                 <div class="footer-icons-flex">
                     <div class="logo-background-html5">
@@ -86,10 +89,10 @@
                         <ion-icon class="css3"name="logo-css3"></ion-icon>
                     </div>
                     <div class="logo-background-github">
-                        <a href="#"><ion-icon class="github"name="logo-github"></ion-icon></a>
+                        <a href="https://github.com/liammichaelsmith" target="_blank"><ion-icon class="github"name="logo-github" ></ion-icon></a>
                     </div>
                     <div class="logo-background-linkedin">
-                        <a href="#"><ion-icon class="linkedin"name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/liam-michael-smith/" target="_blank"><ion-icon class="linkedin"name="logo-linkedin"></ion-icon></a>
                     </div>
                 </div>
             </div>
@@ -102,11 +105,3 @@
 
 </html>
 
-<!-- 
-    <form action="https://formspree.io/your@email.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
- -->

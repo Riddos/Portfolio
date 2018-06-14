@@ -49,6 +49,7 @@ html {
     font-weight: 300;
     font-size: 10px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -86,6 +87,22 @@ p {
 
 li {
     list-style: none;
+}
+
+a:link,
+a:visited {
+    color: #A6E22E;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #A6E22E;
+    -webkit-transition: border-bottom 1s, color 1s;
+    transition: border-bottom 1s, color 1s;
+    }
+
+a:hover,
+a:active {
+    color: #A6E22E;
+    border-bottom: 1px solid transparent;
 }
 
 /* HERO COVER */
@@ -162,8 +179,13 @@ header {
     margin-top: 5rem;
 }
 
+.portfolio-flex a {
+    border-bottom: none;
+}
+
 .portfolio-flex img {
     width: 95%;
+    
 }
 
 /* Resources */
@@ -176,6 +198,10 @@ header {
 
 .resources-flex img {
     width: 95%;
+}
+
+.resources-flex a {
+    border-bottom: none;
 }
 
 /* Contact Form */
@@ -224,20 +250,36 @@ textarea {
 
 ::-webkit-input-placeholder {
     color: #fff;
+    padding-left: 1rem;
 }
 
 /* FOOTER */
 
+.logo-background-home {
+    position: absolute;
+    top: -2.5rem;
+    font-size: 3rem;
+    width: 47px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.logo-background-home :hover {
+    color: #F92672;
+}
+
 footer {
     background-color: #020202;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 ion-icon {
     font-size: 3rem;
     padding: 1rem;
     color: white;
-    
 }
 
 .footer-icons {
@@ -249,6 +291,10 @@ ion-icon {
 .footer-icons-flex {
     display: flex;
     justify-content: space-around;
+}
+
+.footer-icons-flex a {
+    border-bottom: none;
 }
 
 .logo-background-html5, 
