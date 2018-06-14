@@ -266,6 +266,10 @@ textarea {
     margin: 0 auto;
 }
 
+.logo-background-home a {
+    border-bottom: none;
+}
+
 .logo-background-home :hover {
     color: #F92672;
 }
