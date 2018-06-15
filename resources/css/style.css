@@ -82,7 +82,7 @@ h3 {
 }
 
 p {
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 li {
@@ -164,7 +164,7 @@ header {
 .markup {
     color: #F92672;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400; 
 }
 
 
@@ -185,7 +185,10 @@ header {
 
 .portfolio-flex img {
     width: 95%;
-    
+}
+
+.portfolio-flex img:hover {
+    transform: scale(1.05);
 }
 
 /* Resources */
@@ -198,6 +201,11 @@ header {
 
 .resources-flex img {
     width: 95%;
+}
+
+.resources-flex img:hover {
+    width: 95%;
+    transform: scale(1.05);
 }
 
 .resources-flex a {
@@ -257,7 +265,7 @@ textarea {
 
 .logo-background-home {
     position: absolute;
-    top: -2.5rem;
+    top: -3rem;
     font-size: 3rem;
     width: 47px;
     height: 50px;
@@ -301,6 +309,12 @@ ion-icon {
     border-bottom: none;
 }
 
+.logo-background-arrow {
+    color: grey;
+    font-size: 4rem;
+    opacity: 1;
+}
+
 .logo-background-html5, 
 .logo-background-css3,
 .logo-background-github,
@@ -319,3 +333,15 @@ ion-icon {
     text-align: center;
 }
 
+/* ANIMATIONS */
+
+.js--wp-1,
+.js--wp-2 {
+    opacity: 0;
+    animation-duration: 3s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated {
+    opacity: 1;
+} 
