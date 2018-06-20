@@ -1,29 +1,4 @@
-/* COLOURS */
- 
-/* &lt;h1&gt start
-&lt;/h1&gt end */
 
-AUSSIE PALET
-#f6e58d beekeeper
-#ffbe76 spiced nectarine
-#ff7979 pink glamour
-#badc58 june bird
-#dff9fb coastal breeze
-#f9ca24 turbo 
-#f0932b quince jelly
-#eb4d4b carmine pink
-#6ab04c pure apple
-#c7ecee hint of ice pack
-#7ed6df middle blue 
-#e056fd heliotrope
-#686de0 exodux fruit
-#30336b deep koamaru
-#95afc0 soaring eagle
-#22a6b3 greenland green
-#be2edd steelpink 
-#4834d4 blurple
-#130f40 deep cove 
-#535c68 wizard grey
 
 MANOKAI
 #272822,
@@ -34,6 +9,7 @@ MANOKAI
 #272822,
 #F92672,
 #66D9EF
+
 /* COLOURS */
 
 * {
@@ -50,6 +26,7 @@ html {
     font-size: 10px;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .row {
@@ -141,8 +118,7 @@ header {
     height: 6rem;
     width: auto;
     margin: 1rem 1rem;
-    opacity: 0.8;
-    
+    opacity: 0.8;  
 }
 
 .hero-text {
@@ -176,6 +152,7 @@ header {
 
 .portfolio-flex {
     display: flex;
+    width: 100%;
     margin-top: 5rem;
 }
 

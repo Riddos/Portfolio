@@ -1,0 +1,63 @@
+
+/* Big tablets to small laptop from 1200px to 1900px */
+@media only screen and (max-width: 1900px) {
+
+
+}
+
+
+
+/* Big tablets to small laptop from 1024px to 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .row { padding: 0 2%; }
+
+    .footer-icons { padding-top: 4rem; }
+
+}
+
+/* Tablets to big tablet from 769px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    .portfolio-flex,
+    .resources-flex { width: 98%; }
+
+}
+
+/* Tablets: from 415px to 768px */
+@media only screen and (max-width: 768px) {
+
+h1 { font-size: 4rem; }
+
+.row { padding: 0 5%; }
+
+.footer-icons { padding-top: 4rem; }
+
+.portfolio-flex,
+.resources-flex { width: 93%; }
+
+.about-me { height: auto; }
+
+/* Average phones: from 321px to 414px */
+@media only screen and (max-width: 414px) {
+
+.logo { height: 5rem; }
+
+h1 { font-size: 2.5rem;}
+
+h2 { font-size: 2.5rem}
+
+p { font-size: 1.7rem}
+
+.about-me { height: auto; }
+
+.portfolio-flex,
+.resources-flex { width: 92%; }
+
+.contact-form { width: 35rem; }
+
+ion-icon { padding: .2rem; }
+
+.logo-background-home { top: -2.4rem; }
+
+}
