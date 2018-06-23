@@ -29,6 +29,28 @@ h1 { font-size: 4rem; }
 
 .about-me { height: auto; }
 
+ion-icon { padding: .2rem; }
+
+.logo-background-home { top: -2.4rem; }
+
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-flex img {
+    padding: .5rem;
+}
+
+.resources-flex {
+    display: flex;
+    flex-direction: column;
+}
+.resources-flex img {
+    padding: .5rem;
+}
+
+
+
 /* Average phones: from 321px to 414px */
 @media only screen and (max-width: 414px) {
 
@@ -50,5 +72,21 @@ p { font-size: 1.7rem}
 ion-icon { padding: .2rem; }
 
 .logo-background-home { top: -2.4rem; }
+
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-flex img {
+    padding: .5rem;
+}
+
+.resources-flex {
+    display: flex;
+    flex-direction: column;
+}
+.resources-flex img {
+    padding: .5rem;
+}
 
 }

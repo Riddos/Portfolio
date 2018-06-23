@@ -244,7 +244,7 @@ textarea {
     position: absolute;
     top: -3rem;
     font-size: 3rem;
-    width: 47px;
+    width: 50px;
     height: 50px;
     left: 0;
     right: 0;
@@ -272,8 +272,7 @@ ion-icon {
 }
 
 .footer-icons {
-    width: 50%;
-    padding: 2rem;
+    
     padding-top: 4rem;
 }
 
@@ -294,6 +293,7 @@ ion-icon {
 
 .logo-background-html5, 
 .logo-background-css3,
+.logo-background-js,
 .logo-background-github,
 .logo-background-linkedin {
     background-color: grey;
@@ -302,6 +302,7 @@ ion-icon {
 .logo-background-html5 :hover, 
 .logo-background-css3 :hover, 
 .logo-background-github :hover,
+.logo-background-js :hover,
 .logo-background-linkedin :hover {
     background-color: #F92672;
 }
@@ -313,12 +314,24 @@ ion-icon {
 /* ANIMATIONS */
 
 .js--wp-1,
-.js--wp-2 {
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6,
+.js--wp-7,
+.js--wp-8 {
     opacity: 0;
     animation-duration: 3s;
 }
 
 .js--wp-1.animated,
-.js--wp-2.animated {
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated,
+.js--wp-7.animated,
+.js--wp-8.animated  {
     opacity: 1;
 } 
