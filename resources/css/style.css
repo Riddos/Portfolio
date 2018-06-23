@@ -85,7 +85,7 @@ a:active {
 /* HERO COVER */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.800)),  url("blake-connally-435076-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.800)),  url("blake-connally-435076-unsplash-min.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
