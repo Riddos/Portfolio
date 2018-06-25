@@ -113,7 +113,6 @@ header {
     font-weight: 400;
 }
 
-
 .logo {
     height: 6rem;
     width: auto;
@@ -134,7 +133,8 @@ header {
 .about-me {
     background-color: #272822;
     color: #fff;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 10rem;
 }
 
 .markup {
