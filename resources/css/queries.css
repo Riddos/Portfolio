@@ -20,7 +20,9 @@
 
 h1 { font-size: 4rem; }
 
-.row { padding: 0 5%; }
+.row { 
+    width: 100%;
+    padding: 0 5%; }
 
 .footer-icons { padding-top: 4rem; }
 
@@ -34,16 +36,26 @@ ion-icon { padding: .2rem; }
 .logo-background-home { top: -2.4rem; }
 
 .portfolio-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .portfolio-flex img {
     padding: .5rem;
 }
 
 .resources-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .resources-flex img {
     padding: .5rem;
@@ -74,19 +86,42 @@ ion-icon { padding: .2rem; }
 .logo-background-home { top: -2.4rem; }
 
 .portfolio-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
+
 .portfolio-flex img {
     padding: .5rem;
 }
 
 .resources-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
+
 .resources-flex img {
     padding: .5rem;
 }
+
+}
+
+/* Average phones: from 321px to 414px */
+@media only screen and (max-width: 320px) {
+
+    h1 { font-size: 2rem;}
+
+    .main-nav li {
+        font-size: 1.5rem;
+    }
 
 }
