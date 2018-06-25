@@ -85,7 +85,7 @@ a:active {
 /* HERO COVER */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.800)),  url("blake-connally-435076-unsplash-min.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.800)),  url("blake-connally-435076-unsplash-min10.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -147,7 +147,7 @@ header {
 /* PORTFOLIO */
 
 .Portfolio, .resources {
-    background-color: rgb(163, 160, 161);
+    background-color: #898d78;
 }
 
 .portfolio-flex {
@@ -320,7 +320,9 @@ ion-icon {
 .js--wp-5,
 .js--wp-6,
 .js--wp-7,
-.js--wp-8 {
+.js--wp-8,
+.js--wp-9,
+.js--wp-10 {
     opacity: 0;
     animation-duration: 3s;
 }
@@ -332,6 +334,8 @@ ion-icon {
 .js--wp-5.animated,
 .js--wp-6.animated,
 .js--wp-7.animated,
-.js--wp-8.animated  {
+.js--wp-8.animated,
+.js--wp-9.animated,
+.js--wp-10.animated  {
     opacity: 1;
 } 

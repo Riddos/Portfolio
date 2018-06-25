@@ -48,4 +48,16 @@ $('.js--wp-8').waypoint(function(direction) {
         offset:'65%'  
 });
 
+$('.js--wp-9').waypoint(function(direction) {
+        $('.js--wp-9').addClass('animated fadeIn');
+}, {
+        offset:'65%'  
+});
+
+$('.js--wp-10').waypoint(function(direction) {
+        $('.js--wp-10').addClass('animated fadeIn');
+}, {
+        offset:'65%'  
+});
+
 });
