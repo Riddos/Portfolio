@@ -70,7 +70,8 @@ h2 { font-size: 2.5rem}
 
 p { font-size: 1.7rem}
 
-.about-me { height: auto; }
+.about-me { height: auto; 
+            text-align: justify; }
 
 .portfolio-flex,
 .resources-flex { width: 92%; }
