@@ -18,11 +18,7 @@
 /* Tablets: from 415px to 768px */
 @media only screen and (max-width: 768px) {
 
-h1 { font-size: 4rem; }
-
-.row { 
-    width: 100%;
-    padding: 0 5%; }
+h1 { font-size: 3rem; }
 
 .footer-icons { padding-top: 4rem; }
 
@@ -68,7 +64,7 @@ ion-icon { padding: .2rem; }
 
 .logo { height: 5rem; }
 
-h1 { font-size: 2.5rem;}
+h1 { font-size: 2.2rem;}
 
 h2 { font-size: 2.5rem}
 
@@ -118,10 +114,24 @@ ion-icon { padding: .2rem; }
 /* Average phones: from 321px to 414px */
 @media only screen and (max-width: 320px) {
 
-    h1 { font-size: 2rem;}
+    h1 { font-size: 2rem; }
+
+    h2 { font-size: 2rem;}
+    
+    h3 { font-size: 1.5rem;}
+    
+    p { font-size: 1rem; }
+
+    .about-me {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .markup { font-size: 1.5rem; }
 
     .main-nav li {
         font-size: 1.5rem;
     }
+    .contact-form { width: 25rem; }
 
 }
