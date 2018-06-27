@@ -178,6 +178,7 @@ header {
 
 .portfolio-flex img {
     width: 95%;
+    -webkit-transition: width 2s;
     transition: width 2s;
 }
 
@@ -198,6 +199,7 @@ header {
 
 .resources-flex img {
     width: 95%;
+    -webkit-transition: width 2s;
     transition: width 2s;
 }
 
