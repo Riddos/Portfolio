@@ -178,11 +178,12 @@ header {
 
 .portfolio-flex img {
     width: 95%;
+    transition: width 2s;
 }
 
 .portfolio-flex img:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    width: 98%;
+            
 }
 
 /* Resources */
@@ -197,12 +198,12 @@ header {
 
 .resources-flex img {
     width: 95%;
+    transition: width 2s;
 }
 
 .resources-flex img:hover {
-    width: 95%;
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    width: 98%;
+    
 }
 
 .resources-flex a {
